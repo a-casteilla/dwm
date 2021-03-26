@@ -46,3 +46,10 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+What I have added :
+-------------------
+ + patch for azerty keyboard support (I am French btw)
+ + patch for previous and next tags
+ + patch for gaps
+ + change some colors and some shortcuts (see config.h)
