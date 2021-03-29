@@ -101,8 +101,8 @@ static Key keys[] = {
        { MODKEY,               33,    shiftview,      {-1} },            // p
        { MODKEY,               20,    setgaps,        {.i = -5} },            // parenright
        { MODKEY,               21,    setgaps,        {.i = +5} },            // equal
-       { MODKEY,               20,    setgaps,        {.i = GAP_RESET} },            // parenright
-       { MODKEY,               21,    setgaps,        {.i = GAP_TOGGLE} },            // equal
+       { MODKEY|ShiftMask,     20,    setgaps,        {.i = GAP_RESET} },            // parenright
+       { MODKEY|ShiftMask,     21,    setgaps,        {.i = GAP_TOGGLE} },            // equal
  };
 
 /* button definitions */
